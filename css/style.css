@@ -27,23 +27,22 @@
 }
 
 nav{
-    padding-right: 250px;
+    
     background-color: #1E2023;
+    display: block;
+    width: auto;
+    margin: auto;
+    
 }
 header{
+    
     display: flex;
-    justify-content: space-around;
     border-bottom: 1px solid rgb(255, 0, 204);
-    padding: 15px;
-    align-items: center;
+    padding: 20px;
+    align-content: center;
 }
 
-active{
-    display: flex;
-    justify-content: center;
-    padding-left: 30%;
-    padding-top: 20px;   
-}
+
 
 .footer{
     background-color: #1E2023;
