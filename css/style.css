@@ -41,9 +41,6 @@ header{
     padding: 20px;
     align-content: center;
 }
-
-
-
 .footer{
     background-color: #1E2023;
     padding: 1em 0;
@@ -77,4 +74,41 @@ i{
 }
 .cartas{
     justify-content: center;
+}
+.contacto{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.maps{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.conocenos{
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+.info{
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+.compra{
+    text-align: center;
+    color: white;
+    margin: 30px;
+    
+}
+ul{
+    list-style: none;
+}
+.ulcompra{
+    padding-bottom: 500px;
+}
+.h1product{
+    text-align: center;
+    color: white;
+    margin: 20px;
 }
