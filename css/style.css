@@ -19,9 +19,11 @@
 }
 
 .LOGO{
-    display: flex;
+    display: block;
+    width: 150px;
+    margin: auto;
     color: aliceblue;
-    padding-right: 50px;
+    padding-left: 30px;
 }
 
 nav{
