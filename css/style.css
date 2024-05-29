@@ -1,3 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+.fondo {
+  background-color: #1E2023;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid rgb(255, 0, 204);
+  padding: 20px;
+  align-content: center;
+}
+header nav {
+  background-color: #1E2023;
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+.footer {
+  background-color: #1E2023;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgb(255, 0, 204);
+}
+
+.LOGO {
+  display: block;
+  width: 150px;
+  margin: auto;
+  color: aliceblue;
+  padding-left: 30px;
+}
+
+.cartas {
+  justify-content: center;
+}
+
+.maps {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+p {
+  font-size: 17px;
+}
+
+a:hover {
+  color: deeppink !important;
+}
+
+i {
+  font-size: 25px !important;
+}
+
+.font {
+  font-size: 12px;
+}
+
+.destacados {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.contacto {
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.conocenos {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.compra {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.h1product {
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.ulcompra {
+  padding-bottom: 500px;
+}
 
 /*# sourceMappingURL=style.css.map */
