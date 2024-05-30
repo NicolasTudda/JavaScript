@@ -104,4 +104,20 @@ ul {
   padding-bottom: 500px;
 }
 
+.destacados {
+  transition: all 300ms;
+}
+
+.destacados:hover {
+  transform: scale(1.15);
+}
+
+.cartas {
+  transition: all 300ms;
+}
+
+.cartas:hover {
+  transform: scale(1.15);
+}
+
 /*# sourceMappingURL=style.css.map */
