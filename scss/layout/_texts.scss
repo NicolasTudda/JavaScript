@@ -1,3 +1,8 @@
+@mixin propiedades-titulo($align,$color,$margint){
+    text-align: $align;
+    color: $color;
+    margin: $margint;
+}
 a{
     text-decoration: none;
     font-size: 17px;
@@ -15,9 +20,7 @@ i{
     font-size: 12px;
 }
 .destacados{
-    text-align: center;
-    color: white;
-   margin-top: 80px;
+    @include propiedades-titulo(center,white,80px)
 }
 .contacto{
     text-align: center;
@@ -30,17 +33,11 @@ i{
     margin: 30px;
 }
 .info{
-    text-align: center;
-    color: white;
-    margin: 30px;
+    @extend .conocenos;
 }
 .compra{
-    text-align: center;
-    color: white;
-    margin: 30px;
+    @extend .conocenos;
 }
 .h1product{
-    text-align: center;
-    color: white;
-    margin: 20px;
+    @extend .conocenos;
 }
