@@ -1,0 +1,43 @@
+@mixin propiedades-titulo($align,$color,$margint){
+    text-align: $align;
+    color: $color;
+    margin: $margint;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color: deeppink !important;
+}
+i{
+    font-size: 25px !important;
+}
+.font{
+    font-size: 12px;
+}
+.destacados{
+    @include propiedades-titulo(center,white,80px)
+}
+.contacto{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.conocenos{
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+.info{
+    @extend .conocenos;
+}
+.compra{
+    @extend .conocenos;
+}
+.h1product{
+    @extend .conocenos;
+}
