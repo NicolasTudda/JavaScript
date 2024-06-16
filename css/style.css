@@ -48,7 +48,9 @@ header nav {
 }
 
 .carta {
-  justify-content: center;
+  display: block;
+  justify-content:center;
+  
 }
 
 .maps {
@@ -101,7 +103,7 @@ ul {
 }
 
 .ulcompra {
-  padding-bottom: 500px;
+  padding-bottom: 50px;
 }
 
 .destacados {
@@ -120,4 +122,13 @@ ul {
   transform: scale(1.15);
 }
 
+.SOON{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  border-bottom: 1px solid yellow;
+  border-top: 1px solid yellow;
+}
 /*# sourceMappingURL=style.css.map */
