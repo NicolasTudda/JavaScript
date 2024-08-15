@@ -1,0 +1,1 @@
+alert("Buen dia, Buenas tardes o Buenas noches, para realizar su compra o ver el trabajo de java script dirigirse a PRODUCTOS, muchas gracias")
