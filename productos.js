@@ -23,6 +23,16 @@ const Productos = [
             titulo: "torta d",
             precio: 15000,
         },
+        {
+            imagen: "https://chocolateaguila.com/archivos/recetas/receta-1251_torta-de-chocolate-con-dulce-de-leche.jpg",
+            titulo: "torta e",
+            precio: 15000,
+        },
+        {
+            imagen: "https://chocolateaguila.com/archivos/recetas/receta-1251_torta-de-chocolate-con-dulce-de-leche.jpg",
+            titulo: "torta f",
+            precio: 15000,
+        },
 ];
 
 const sumarAlCarro = (titulo) => {

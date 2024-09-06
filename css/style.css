@@ -22,7 +22,9 @@
 
 .contenedor{
   width: auto;
+  margin: 40px;
   background-color: rgb(248, 192, 239);
+  
 }
 
 .imagen{
